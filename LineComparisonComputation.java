@@ -21,5 +21,11 @@ static double distance1(int a1, int b1, int a2, int b2)
         System.out.println(Math.round(distance(3, 4, 4, 3)*100000.0)/100000.0);
 	System.out.println(Math.round(distance1(2, 5, 5, 2)*100000.0)/100000.0);
         System.out.println(d == d1);
+	if (d>d1)
+	System.out.println("First line is greater");
+        else if (d<d1)
+        System.out.println("second line is greater");
+	else
+	System.out.println("Both are equals");
     }
 }
